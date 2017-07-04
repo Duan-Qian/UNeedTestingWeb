@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+
+#accountSettings {
+	width:500px;
+	padding-top:80px;
+	font-family:open sans;
+	font-size:18px;
+}
+
+#userInfo {
+	font-weight:lighter;
+	font-family:open sans;
+	font-size:16px;
+}
+
+#changeUserInfoInput {
+	border-radius:10px;
+	-moz-border-radius:10px;
+	border:none;
+	width:250px;
+	height:44px;
+	margin-top:20px;
+	font-size:16px; 
+	font-family:open sans; 
+	font-weight:100;
+	padding-left:10px;
+}
+#newPassword {
+	border-radius:10px;
+	-moz-border-radius:10px;
+	border:none;
+	width:250px;
+	height:44px;
+	margin-top:20px;
+	font-size:16px; 
+	font-family:open sans; 
+	font-weight:100;
+	padding-left:10px;
+}
+#reNewPassword {
+	border-radius:10px;
+	-moz-border-radius:10px;
+	border:none;
+	width:250px;
+	height:44px;
+	margin-top:20px;
+	font-size:16px; 
+	font-family:open sans; 
+	font-weight:100;
+	padding-left:10px;
+}
+#reSetPasswordBtn {
+	background-color:transparent; 
+	border-radius:5px;
+	-moz-border-radius:10px;
+	border:1px solid black;
+		
+	font-size:12px; 
+	font-family:open Sans;
+	color:black;
+	-webkit-transition-duration:0.4s; /* Safari */
+    transition-duration:0.4s;
+}
+#reSetPasswordBtn:hover {
+	background-color:black;
+    color:white;
+}
+
+#changeUserInfoBtn {
+	background-color:transparent; 
+	border-radius:5px;
+	-moz-border-radius:10px;
+	border:1px solid black;
+		
+	font-size:12px; 
+	font-family:open Sans;
+	color:black;
+	-webkit-transition-duration:0.4s; /* Safari */
+    transition-duration:0.4s;
+}
+#changeUserInfoBtn:hover {
+	background-color:black;
+    color:white;
+}
+
+#account_icon {
+	width:40px;
+	heigth:40px;
+}
+
+#radioBtnLabel {
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:12px; 
+	font-family:open Sans;
+	display: inline-block;
+}
+#radioBtnLabel:hover {
+	color:grey;
+}
+#radioBtnLabel:before {
+	
+}
+
+/* hide radio button */
+/* input[type=radio] {
+  display: none;
+} */
+
+#progress_bar {
+	
+}
